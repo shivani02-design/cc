@@ -1,0 +1,16 @@
+#include<stdio.h>
+unsignedintreverseBits(unsignedintnum){unsignedintreversed=0;
+intbits=sizeof(num)*8;
+for(inti=0;i<bits;i++){if(num&(1<<i)){
+reversed|=1<<(bits-1-i);
+}
+}
+returnreversed;
+}
+intmain(){
+unsignedintnum=10;printf("%u\n"
+,num);printf("%u\n"
+,reverseBits(num));return0;
+}
+OUTPUT:10
+1342177280
