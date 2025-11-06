@@ -1,0 +1,16 @@
+#include<stdio.h>intfibonacci(intn){
+if(n<=1){returnn;
+}
+returnfibonacci(n-1)+fibonacci(n-2);
+}
+intmain(){
+intn=10;//examplenumber
+printf("The%dthFibonaccinumberis%d\n"
+,n,fibonacci(n));return0;
+}
+OUTPUT:
+The10thFibonaccinumberis55
+Problem:TheTribonaccisequenceTnisdefinedasfollows:
+T0=0,T1=1,T2=1,andTn+3=Tn+Tn+1+Tn+2forn>=0.
+Givenn,returnthevalueofTn.Example1:
+Input:n=4Output:4
