@@ -1,0 +1,16 @@
+#include<stdio.h>
+unsignedinthammingDistance(unsignedintx,unsignedinty)
+{
+unsignedintdist=0;
+unsignedintval=x^y;//bitwiseXORof xandy
+while(val){
+//countthenumberofsetbits(i.e.,1s)invaldist++;
+val&=val-1;
+}
+returndist;
+}
+intmain(){
+unsignedintx=10;unsignedinty=15;
+printf("%u\n"
+,hammingDistance(x,y));return0;
+OUTPUT:
