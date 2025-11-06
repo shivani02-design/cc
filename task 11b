@@ -1,0 +1,14 @@
+#include<stdio.h>
+intfibonacci(intn){if(n<=1){
+returnn;
+}
+returnfibonacci(n-1)+fibonacci(n-2);
+}
+intmain(){
+intn=10;//examplenumber
+printf("The%dthFibonaccinumberis%d\n"
+,n,fibonacci(n));return0;
+}
+OUTPUT:
+Enterthenumber0felements:15
+01123581321345589144233377
