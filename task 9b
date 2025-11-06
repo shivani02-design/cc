@@ -1,0 +1,15 @@
+#include<iostream>usingnamespacestd;
+voidinputData(){intt,a;
+stringb;cin>>t;while(t--){
+cin>>a>>b;
+cout<<a<<""<<b<<endl;
+}
+}
+intmain(){inputData();return0;
+}
+Input:2
+5
+Hello7
+Geeks
+Output:5Hello
+7Geek
