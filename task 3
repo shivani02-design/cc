@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+intmain(){
+char
+sentence[100];
+charreplace_char;
+printf("Enterasentence:");
+fgets(sentence,100,stdin);
+printf("Enteracharacterto
+replace:");scanf("%c"
+,
+&replace_char);
+for(inti=0;i<strlen(sentence);
+i++){if(sentence[i]==
+replace_char){
+sentence[i]=
+'#';
+}
+}
+printf("Modifiedsentence:%s"
+,sentence);return0;
+}
+OUTPUT:
+Enterasentence:veltechuniversityisinchennai
+Enteracharactertoreplace:u
+Modifiedsentence: veltech#niversity isinChennai
